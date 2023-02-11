@@ -4,7 +4,7 @@
 To Install These theme you need to:
 1. Install better Discord from thier offical website https://betterdiscord.app/
 2. Go to the settings
-3. Then the custom CSS section and paste this code @import url("Fix it later");
+3. Then the custom CSS section and paste the code from theme.css
 4. Press Live update then save and you done :) 
 
 # Alternative you can install the Darkblue.css file and put in the themes folder of BD :)
