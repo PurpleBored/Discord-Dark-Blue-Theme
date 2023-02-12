@@ -1,9 +1,10 @@
 /**
-    * @name Dark Blue theme (I know that i am not to creative with names)
+    * @name Dark Blue Discord Theme 
     * @namespace discord.com/app
-    * @version 1.1.1
+    * @version 1.0.2
     * @description A very simple dark blue discord thehe
     * @author [Niko]#2077
+    *@ purplebored@skiff.com You can ask me any question here if you want
 **/
 
 @import url("https://nyri4.github.io/Discolored/main.css");
@@ -14,7 +15,25 @@
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
 @import url(https://dablulite.github.io/accountdetailscolumns/import.css);
 
+.clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover, .clickable-2V8YKY[aria-selected=true]>.base-2v-uc0 {
+    background-color: var(--brand-experiment);
+}
 
+/* Rounded Context Menu */
+.menu-1QACrS, .colorDefault-CDqZdO { 
+    border-radius: 15px; 
+}
+
+.contentWrapper-3vHNP2{
+    --background-secondary:rgb(8, 17, 32);
+    --background-secondary-alt:rgb(37, 47, 113);
+    --background-tertiary:rgb(3, 12, 27);
+    --background-accent:rgb(10, 80, 150);
+}
+
+#app-mount .autocomplete-3NRXG8{
+    background-color: rgb(0, 11, 29);
+}
 /* edited text */
 .timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
         content: " (" attr(aria-label) ")";
@@ -164,3 +183,4 @@
 }
 .theme-light .footerButton-24QPis:active {
 	background-color: #72767d;
+}
